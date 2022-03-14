@@ -139,7 +139,6 @@ const CardListContainer = ({ regionType }) => {
         objectsLength={objectsLength}
         currentPage={currentPage}
         onChangePage={onChangePage}
-        showObjects={showObjects}
       />
       {<button onClick={setObjects}>SET</button>}
     </div>
