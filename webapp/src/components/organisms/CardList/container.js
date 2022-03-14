@@ -139,9 +139,9 @@ const CardListContainer = ({ regionType }) => {
         objectsLength={objectsLength}
         currentPage={currentPage}
         onChangePage={onChangePage}
-        // showObjects={showObjects}
+        showObjects={showObjects}
       />
-      {/* {<button onClick={setObjects}>SET</button>} */}
+      {<button onClick={setObjects}>SET</button>}
     </div>
   );
 };
