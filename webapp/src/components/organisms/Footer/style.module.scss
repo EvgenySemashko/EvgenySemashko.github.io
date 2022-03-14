@@ -1,0 +1,51 @@
+@import "../../../assets//styles/common.scss";
+
+footer {
+  background-color: #375b3b;
+  .container {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: $white;
+    .links {
+      max-width: 11rem;
+      display: flex;
+      flex-direction: column;
+      a {
+        @include BebasNeue();
+        margin: 0 0 2rem 0;
+        font-size: 27px;
+      }
+    }
+    .places {
+      display: flex;
+      flex-direction: column;
+      a {
+        margin: 0 0 2rem 0;
+        @include H24;
+        @include BebasNeueLight();
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+    .about {
+      max-width: 30rem;
+      h3 {
+        font-family: "Bebas Neue", sans-serif;
+        margin: 0 0 1rem 0;
+        font-size: 36px;
+        line-height: 1;
+        letter-spacing: 0.1px;
+        font-weight: 30;
+      }
+      p {
+        margin: 0 0 1rem 0;
+        @include H18;
+        font-weight: 7;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "../../../assets/styles/common.scss";
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 1.5rem 0;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  color: $white;
+  span {
+    font-size: 2.25rem;
+  }
+  button {
+    @include H24;
+    padding: 0 0.5rem;
+    margin: 0 0 0 3rem;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../../assets//styles/common.scss";
+
+.header {
+  .container {
+    @include container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    .links {
+      @include H22;
+      display: flex;
+      gap: 3rem;
+    }
+        
+  }
+  /*a {
+    transition: 0.5s ;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #678E6B;
+  }*/
+}

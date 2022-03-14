@@ -1,0 +1,55 @@
+@import "../../../assets/styles/common.scss";
+
+.wrapper {
+  .banner {
+    position: relative;
+    padding: 6rem 0 23rem 0;
+    .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+    }
+    .bannerContainer {
+      @include container;
+      position: relative;
+      z-index: 2;
+      display: block;
+      h2 {
+        @include H1;
+        color: $white;
+        margin: 0 0 2rem 0;
+      }
+      p {
+        max-width: 915px;
+        color: $white;
+        @include H18;
+      }
+    }
+  }
+  .container {
+    position: relative;
+    top: -10rem;
+    @include container;
+    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 2rem;
+    h3 {
+      @include H32;
+      color: red;
+    }
+
+    p {
+      color: #000;
+    }
+    svg {
+      path {
+        fill: $green;
+        stroke: $green;
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import "../../../assets/styles/common.scss";
+.form {
+  max-width: 20rem;
+  position: relative;
+  width: 100%;
+  input {
+    border-radius: 0.25rem;
+    border-radius: 3rem;
+    outline: none;
+    border: 1px solid $white;
+    height: 3.3rem;
+    width: 100%;
+    padding: 0 5rem;
+    color: $white;
+    font-size: 1.1rem;
+    background: $green;
+  }
+  .search {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    top: 50%;
+    right: 1rem;
+    transform: translate(0, -50%);
+    img {
+      width: 1.7rem;
+      height: 1.7rem;
+    }
+  }
+}

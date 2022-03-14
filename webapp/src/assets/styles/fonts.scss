@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+@mixin H1 {
+  @include BebasNeueCyrillic;
+  font-size: 6.5rem;
+  line-height: 7.5rem;
+}
+@mixin H16 {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+@mixin H18 {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-weight: 300;
+}
+@mixin H22 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+@mixin H24 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@mixin H32 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/BebasNeue Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bebas Neue Cyrillic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Bebas Neue K.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bebas Neue Light";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("C:\Users\flavi\Desktop\belarus-main (2)\belarus-main\webapp\src\assets\fonts\BebasNeue Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bebas Neue Book";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("C:\Users\flavi\Desktop\belarus-main (2)\belarus-main\webapp\src\assets\fonts\BebasNeue Book.ttf") format("truetype");
+}
+@mixin BebasNeue {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+}
+@mixin BebasNeueCyrillic {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+}
+@mixin BebasNeueLight {
+  font-family: "Bebas Neue Light", sans-serif;
+  font-style: normal;
+}
+@mixin BebasNeueBook {
+  font-family: "Bebas Neue Book", sans-serif;
+  font-style: normal;
+}
